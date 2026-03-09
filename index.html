@@ -6,12 +6,18 @@
     <title>Hyungjin Cho - Academic Profile</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 40px 20px; color: #333; }
-        header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #2c3e50; padding-bottom: 15px; margin-bottom: 30px; }
+        header { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid #2c3e50; padding-bottom: 15px; margin-bottom: 30px; }
         h1 { color: #2c3e50; margin: 0; font-size: 2em; }
         .subtitle { color: #666; margin-top: 5px; font-size: 1.1em; }
+        
+        /* Contact Info Styles */
+        .contact-info { margin-top: 10px; font-size: 0.95em; color: #555; }
+        .contact-info a { color: #3498db; text-decoration: none; margin-right: 15px; }
+        .contact-info a:hover { text-decoration: underline; }
+
         h2 { color: #3498db; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 30px; }
         
-        .lang-btn { background-color: #2c3e50; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 5px; font-size: 14px; transition: background 0.3s; }
+        .lang-btn { background-color: #2c3e50; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 5px; font-size: 14px; transition: background 0.3s; margin-top: 5px; }
         .lang-btn:hover { background-color: #1a252f; }
         
         ul.pub-list { list-style-type: disc; padding-left: 20px; }
@@ -27,10 +33,18 @@
             <div class="lang-en">
                 <h1>Hyungjin Cho</h1>
                 <div class="subtitle">Academic Profile & Publications</div>
+                <div class="contact-info">
+                    ✉️ <a href="mailto:hcho@kasb.or.kr">hcho@kasb.or.kr</a>
+                    ✉️ <a href="mailto:hyungjin.cho1007@gmail.com">hyungjin.cho1007@gmail.com</a>
+                </div>
             </div>
             <div class="lang-ko">
                 <h1>조형진</h1>
                 <div class="subtitle">학술 프로필 및 연구 실적</div>
+                <div class="contact-info">
+                    ✉️ <a href="mailto:hcho@kasb.or.kr">hcho@kasb.or.kr</a>
+                    ✉️ <a href="mailto:hyungjin.cho1007@gmail.com">hyungjin.cho1007@gmail.com</a>
+                </div>
             </div>
         </div>
         <button class="lang-btn" onclick="toggleLanguage()">🌐 한국어로 보기 (Korean)</button>
@@ -39,140 +53,73 @@
     <div class="lang-en">
         <h2>Employment History</h2>
         <ul class="pub-list">
-            <li>Research Head, Korean Accounting Research Institute, Korea Accounting Institute, Seoul, South Korea (Sep. 2024 - Present) <span style="display:none;">[cite: 162, 163]</span></li>
-            <li>Associate Professor, Inha University, Incheon, South Korea (Mar. 2021 - Aug. 2024) <span style="display:none;">[cite: 162, 163]</span></li>
-            <li>Assistant Professor, Inha University, Incheon, South Korea (Sep. 2020 - Feb. 2021) <span style="display:none;">[cite: 162, 163]</span></li>
-            <li>Assistant Professor, Universidad Carlos III de Madrid, Getafe, Madrid, Spain (Sept. 2015 - Aug. 2020) <span style="display:none;">[cite: 163, 164]</span></li>
-            <li>Samil PricewaterhouseCoopers, South Korea (2005 - 2009) <span style="display:none;">[cite: 332, 337]</span></li>
+            <li>Research Head, Korean Accounting Research Institute, Korea Accounting Institute, Seoul, South Korea (Sep. 2024 - Present) <span style="display:none;"></span></li>
+            <li>Associate Professor, Inha University, Incheon, South Korea (Mar. 2021 - Aug. 2024) <span style="display:none;"></span></li>
+            <li>Assistant Professor, Inha University, Incheon, South Korea (Sep. 2020 - Feb. 2021) <span style="display:none;"></span></li>
+            <li>Assistant Professor, Universidad Carlos III de Madrid, Getafe, Madrid, Spain (Sept. 2015 - Aug. 2020) <span style="display:none;"></span></li>
+            <li>Samil PricewaterhouseCoopers, South Korea (2005 - 2009) <span style="display:none;"></span></li>
         </ul>
 
         <h2>Publications in International Journals</h2>
         <ul class="pub-list">
-            <li>"Peer Effects in investment: Evidence from early-tenure CEOs" with Ahrum Choi & Taejin Jung. European Accounting Review, 2025, 34(3). <span style="display:none;">[cite: 166]</span></li>
-            <li>"Corporate Investment in the Absence of Peer Firms' Disaggregated Cost Information" with Sehee Kim & Woo-Jong Lee. Asia-Pacific Journal of Financial Studies, 2025, 54(4). <span style="display:none;">[cite: 167, 168]</span></li>
-            <li>"Media Attention and Tax Avoidance: Evidence from Korea" with Meeok Cho & Taejin Jung. Applied Economics, forthcoming. <span style="display:none;">[cite: 169]</span></li>
-            <li>"Dark Side of Analyst Coverage? The Case of Cash Holding Adjustment toward the Optimal Level" with Su-Young Choi. Pacific-Basin Finance Journal, 2025, 91. <span style="display:none;">[cite: 170, 171]</span></li>
-            <li>"Managerial Ability and Tax Avoidance Adjustment toward the Optimal Level" with Sumi Jung & Jiyeon Lee. Spanish Journal of Finance and Accounting, 2025, 54(1). <span style="display:none;">[cite: 173, 175]</span></li>
-            <li>"Employee Characteristics and Corporate Risk-Taking: Focusing on Tenure" with Sera Choi & Dae-Hyun Kwon. Asia-Pacific Journal of Financial Studies, 2024, 53(3). <span style="display:none;">[cite: 176, 177]</span></li>
-            <li>"Flexible CPA staffing: Implications for Audit Fees and Audit Quality" with Meeok Cho, Sehee Kim, Byunghee Bryan Lee, & Woo-Jong Lee. International Journal of Auditing, 2024, 28(2). <span style="display:none;">[cite: 178, 179]</span></li>
-            <li>"Controlling Shareholders' Value and Corporate Tax Avoidance" with Jeong-Hoon Hyun, Taejin Jung, & Yewon Kim. Asia-Pacific Journal of Financial Studies, 2024, 53(1). <span style="display:none;">[cite: 180, 181]</span></li>
-            <li>"Managerial ability and revenue-expense matching: Accrual estimation versus business decision" with Gayoung Choi. Asia-Pacific Journal of Accounting & Economics, 2023, 30(4). <span style="display:none;">[cite: 182, 183]</span></li>
-            <li>"Bargaining Power and Budget Ratcheting: Evidence from South Korean Local Governments" with Mi-Ok Kim, Youn-Sik Choi, & Hyung-Rok Jung. Management Accounting Research, 2021, 53. <span style="display:none;">[cite: 184, 185]</span></li>
-            <li>"Media attention and cash holding adjustments" with Meeok Cho & Sehee Kim. Asia-Pacific Journal of Financial Studies, 2021, 50(6). <span style="display:none;">[cite: 186]</span></li>
-            <li>"Analyst Coverage and the Market Valuation of Capitalized vs. Expensed R&D" with Yewon Kim & Seunghee Yang. Asia-Pacific Journal of Financial Studies, 2021, 50(4). <span style="display:none;">[cite: 187, 188]</span></li>
-            <li>"Is Managerial Ability Associated with Capital Structure Adjustment Speed?" with Sera Choi & Gayoung Choi. Asia-Pacific Journal of Financial Studies, 2021, 50(3). <span style="display:none;">[cite: 189, 190]</span></li>
-            <li>"Fixed Asset Revaluation and External Financing during the Financial Crisis: Evidence from Korea" with Young Jun Kim & Ju Ryum Chung. Pacific-Basin Finance Journal, 2021, 67. <span style="display:none;">[cite: 191, 192]</span></li>
-            <li>"Employee Tenure and Real Earnings Management" with Sera Choi & Dae Hyun Kwon. Asia-Pacific Journal of Accounting and Economics, 2021, 28(3). <span style="display:none;">[cite: 193, 194]</span></li>
-            <li>"Regional Crime Rates and Financial Reporting Quality in Private Firms" with Sera Choi, Woo-Jong Lee, & Seunghee Yang. Spanish Journal of Finance and Accounting, 2020, 49(1). <span style="display:none;">[cite: 195, 196]</span></li>
-            <li>"Optimistic Credit Rating and its Influence on Corporate Decisions: Evidence from Korea" with Seung-Youb Han, Seungbin Oh, & Hee-Yeon Sunwoo. Asia-Pacific Journal of Accounting & Economics, 2020, 27(5). <span style="display:none;">[cite: 197, 198, 200]</span></li>
-            <li>"The Influence of Differential Treatment between the Costs of Debt and Equity on Earnings Attributes: Evidence from the Matching between Revenues and Expenses" with Jeong-Hoon Hyun. Journal of Business Finance & Accounting, 2018, 45(9-10). <span style="display:none;">[cite: 201, 202]</span></li>
-            <li>"Cash Holdings Adjustment Speed and Managerial Ability" with Sera Choi & Mi-Ok Kim. Asia-Pacific Journal of Financial Studies, 2018, 47(5). <span style="display:none;">[cite: 203, 204]</span></li>
-            <li>"Do Labor Unions Always Lead to Underinvestment?" with Woo-Jong Lee, Bryan Byung-Hee Lee, & Byungcherl Charlie Sohn. Journal of Management Accounting Research, 2017, 29(1). <span style="display:none;">[cite: 205, 206]</span></li>
-            <li>"Politically Connected Audit Committees, Earnings Quality, and External Financing: Evidence from Korea" with Bomi Song. Asia-Pacific Journal of Financial Studies, 2017, 46(4). <span style="display:none;">[cite: 207, 208]</span></li>
-            <li>"The Effectiveness of Regulation Fair Disclosure: Evidence from an Emerging Market" with Hosik Shim, & Woo-Jong Lee. Emerging Market Finance and Trade, 2016, 52(6). <span style="display:none;">[cite: 209, 210]</span></li>
-            <li>"What Drives Credit Rating Changes? A Return Decomposition Approach" with Sunhwa Choi. Asia-Pacific Journal of Financial Studies, 2015, 44(6). <span style="display:none;">[cite: 211]</span></li>
+            <li>"Peer Effects in investment: Evidence from early-tenure CEOs" with Ahrum Choi & Taejin Jung. European Accounting Review, 2025, 34(3). <span style="display:none;"></span></li>
+            <li>"Corporate Investment in the Absence of Peer Firms' Disaggregated Cost Information" with Sehee Kim & Woo-Jong Lee. Asia-Pacific Journal of Financial Studies, 2025, 54(4). <span style="display:none;"></span></li>
+            <li>"Media Attention and Tax Avoidance: Evidence from Korea" with Meeok Cho & Taejin Jung. Applied Economics, forthcoming. <span style="display:none;"></span></li>
+            <li>"Dark Side of Analyst Coverage? The Case of Cash Holding Adjustment toward the Optimal Level" with Su-Young Choi. Pacific-Basin Finance Journal, 2025, 91. <span style="display:none;"></span></li>
+            <li>"Managerial Ability and Tax Avoidance Adjustment toward the Optimal Level" with Sumi Jung & Jiyeon Lee. Spanish Journal of Finance and Accounting, 2025, 54(1). <span style="display:none;"></span></li>
+            <li>"Employee Characteristics and Corporate Risk-Taking: Focusing on Tenure" with Sera Choi & Dae-Hyun Kwon. Asia-Pacific Journal of Financial Studies, 2024, 53(3). <span style="display:none;"></span></li>
+            <li>"Flexible CPA staffing: Implications for Audit Fees and Audit Quality" with Meeok Cho, Sehee Kim, Byunghee Bryan Lee, & Woo-Jong Lee. International Journal of Auditing, 2024, 28(2). <span style="display:none;"></span></li>
+            <li>"Controlling Shareholders' Value and Corporate Tax Avoidance" with Jeong-Hoon Hyun, Taejin Jung, & Yewon Kim. Asia-Pacific Journal of Financial Studies, 2024, 53(1). <span style="display:none;"></span></li>
+            <li>"Managerial ability and revenue-expense matching: Accrual estimation versus business decision" with Gayoung Choi. Asia-Pacific Journal of Accounting & Economics, 2023, 30(4). <span style="display:none;"></span></li>
+            <li>"Bargaining Power and Budget Ratcheting: Evidence from South Korean Local Governments" with Mi-Ok Kim, Youn-Sik Choi, & Hyung-Rok Jung. Management Accounting Research, 2021, 53. <span style="display:none;"></span></li>
+            <li>"Media attention and cash holding adjustments" with Meeok Cho & Sehee Kim. Asia-Pacific Journal of Financial Studies, 2021, 50(6). <span style="display:none;"></span></li>
+            <li>"Analyst Coverage and the Market Valuation of Capitalized vs. Expensed R&D" with Yewon Kim & Seunghee Yang. Asia-Pacific Journal of Financial Studies, 2021, 50(4). <span style="display:none;"></span></li>
+            <li>"Is Managerial Ability Associated with Capital Structure Adjustment Speed?" with Sera Choi & Gayoung Choi. Asia-Pacific Journal of Financial Studies, 2021, 50(3). <span style="display:none;"></span></li>
+            <li>"Fixed Asset Revaluation and External Financing during the Financial Crisis: Evidence from Korea" with Young Jun Kim & Ju Ryum Chung. Pacific-Basin Finance Journal, 2021, 67. <span style="display:none;"></span></li>
+            <li>"Employee Tenure and Real Earnings Management" with Sera Choi & Dae Hyun Kwon. Asia-Pacific Journal of Accounting and Economics, 2021, 28(3). <span style="display:none;"></span></li>
+            <li>"Regional Crime Rates and Financial Reporting Quality in Private Firms" with Sera Choi, Woo-Jong Lee, & Seunghee Yang. Spanish Journal of Finance and Accounting, 2020, 49(1). <span style="display:none;"></span></li>
+            <li>"Optimistic Credit Rating and its Influence on Corporate Decisions: Evidence from Korea" with Seung-Youb Han, Seungbin Oh, & Hee-Yeon Sunwoo. Asia-Pacific Journal of Accounting & Economics, 2020, 27(5). <span style="display:none;"></span></li>
+            <li>"The Influence of Differential Treatment between the Costs of Debt and Equity on Earnings Attributes: Evidence from the Matching between Revenues and Expenses" with Jeong-Hoon Hyun. Journal of Business Finance & Accounting, 2018, 45(9-10). <span style="display:none;"></span></li>
+            <li>"Cash Holdings Adjustment Speed and Managerial Ability" with Sera Choi & Mi-Ok Kim. Asia-Pacific Journal of Financial Studies, 2018, 47(5). <span style="display:none;"></span></li>
+            <li>"Do Labor Unions Always Lead to Underinvestment?" with Woo-Jong Lee, Bryan Byung-Hee Lee, & Byungcherl Charlie Sohn. Journal of Management Accounting Research, 2017, 29(1). <span style="display:none;"></span></li>
+            <li>"Politically Connected Audit Committees, Earnings Quality, and External Financing: Evidence from Korea" with Bomi Song. Asia-Pacific Journal of Financial Studies, 2017, 46(4). <span style="display:none;"></span></li>
+            <li>"The Effectiveness of Regulation Fair Disclosure: Evidence from an Emerging Market" with Hosik Shim, & Woo-Jong Lee. Emerging Market Finance and Trade, 2016, 52(6). <span style="display:none;"></span></li>
+            <li>"What Drives Credit Rating Changes? A Return Decomposition Approach" with Sunhwa Choi. Asia-Pacific Journal of Financial Studies, 2015, 44(6). <span style="display:none;"></span></li>
         </ul>
 
         <h2>Publications in Domestic Journals</h2>
         <ul class="pub-list">
-            <li>"Trends and Future Directions in Financial Accounting Research in Korea: A Focus on Disclosure and Standard Developments" with Doocheol Moon & Minsup Song. Korean Accounting Review, 2025, 50(5) [in Korean]. <span style="display:none;">[cite: 225, 226]</span></li>
-            <li>"A literature review and preliminary analysis of Non-GAAP reporting in Korea: Implications for the upcoming implementation of management-defined performance measures" with Haewon Moon. Korean Accounting Journal, 2025, 34(5). <span style="display:none;">[cite: 227, 228]</span></li>
-            <li>"Re-examination of Non-Linearity between Tax and Financial Reporting Aggressiveness" with Heesun Chung, Lee-Seok Hwang, & Seunghee Yang. Seoul Journal of Business, 2024, 30(1). <span style="display:none;">[cite: 229, 230]</span></li>
-            <li>"Better medicine Tastes bitter: Negative Media Tone and Leverage Adjustments" with Sohee Park & Meeok Cho. Korean Journal of Financial Studies, 2024, 53(2). <span style="display:none;">[cite: 232, 233]</span></li>
-            <li>"The Case Study on Non-GAAP Reporting: Quarterly Reports by Coupang" with Hyunkyung Lee. Korean Accounting Journal, 2023, 32(6) [in Korean]. <span style="display:none;">[cite: 234, 235]</span></li>
-            <li>"A Study on the Firms' Adjustment toward the Optimal Level of Tax Avoidance" with JinCheol Bae. Accounting Information Review, 2023, 41(2) [in Korean]. <span style="display:none;">[cite: 236, 237]</span></li>
-            <li>"The Change in Rating Standard on R&D Expenditures" with Sera Choi. Accounting Information Review, 2022, 40(2). <span style="display:none;">[cite: 238]</span></li>
-            <li>"The Effect of K-IFRS 1115 on Telecommunication Companies' Financial Reporting" with Jeong-Hoon Hyun. Korean Accounting Journal, 2021, 30(5) [in Korean]. <span style="display:none;">[cite: 240, 241]</span></li>
-            <li>"Extrapolation Bias in Explaining the Asset Growth Anomaly: Evidence from Analysts' Earnings Forecasts" with Sunhwa Choi, Lee-Seok Hwang, & Woo-Jong Lee. Korean Accounting Review, 2018, 43(2). <span style="display:none;">[cite: 242, 243]</span></li>
-            <li>"The Comparison of Empirical Models for Asymmetric Cost Behavior" with Mi-Ok Kim & Hyung-Rok Jung. Korean Accounting Information Review, 2017, 35(1) [in Korean]. <span style="display:none;">[cite: 244, 245]</span></li>
-            <li>"The Divergence between Voting Rights and Control Rights and the Growth Anomaly" with Mi-Ok Kim & Hyung-Rok Jung. Korean Accounting Review, 2014, 39(6) [in Korean]. <span style="display:none;">[cite: 246, 247]</span></li>
-            <li>"Study on the Effect of Corporate Ownership on Information Asymmetry" with Seung Youn Lim & Ku Young Hwang. Korean International Accounting Review, 2014, 56(8) [in Korean]. <span style="display:none;">[cite: 248, 249]</span></li>
-            <li>"The Effect of the Level of Competition in Audit Market on Audit Quality and Audit Fees" with Bomi-Song & Jong-Hag Choi. Korean Management Review, 2014, 43(5) [in Korean]. <span style="display:none;">[cite: 250, 251]</span></li>
-            <li>"The Conservative Audit Approach and Auditor Change" with Keun-Sik Shin & Jong-Hag Choi. Accounting, Tax, and Auditing Research, 2014, 56(1) [in Korean]. <span style="display:none;">[cite: 253, 254]</span></li>
-            <li>"The Changes in Matching between Revenue with Expense: The Effect of Financial Structures" with Tae-Sik Ahn, Jung-Hun Hyun, & Seungbin Oh. Korean Accounting Review, 2014, 39 (1) [in Korean]. <span style="display:none;">[cite: 255, 256]</span></li>
-            <li>"The Association between Income-increasing Earnings Management and Operating Performance, and Voluntary Resignation of Outside Directors" with Sunyoung Park & Jong-Hag Choi. Korean Accounting Review, 2012, 37 (4) [in Korean]. <span style="display:none;">[cite: 257, 258]</span></li>
-            <li>"Valuation and Risk Management of the Put Back Option: A Case of Kumho Industrial" with Moony Lee & Lee-Seok Hwang. Korean Accounting Journal, 2011, 20 (5) [in Korean]. <span style="display:none;">[cite: 260, 261]</span></li>
+            <li>"Trends and Future Directions in Financial Accounting Research in Korea: A Focus on Disclosure and Standard Developments" with Doocheol Moon & Minsup Song. Korean Accounting Review, 2025, 50(5) [in Korean]. <span style="display:none;"></span></li>
+            <li>"A literature review and preliminary analysis of Non-GAAP reporting in Korea: Implications for the upcoming implementation of management-defined performance measures" with Haewon Moon. Korean Accounting Journal, 2025, 34(5). <span style="display:none;"></span></li>
+            <li>"Re-examination of Non-Linearity between Tax and Financial Reporting Aggressiveness" with Heesun Chung, Lee-Seok Hwang, & Seunghee Yang. Seoul Journal of Business, 2024, 30(1). <span style="display:none;"></span></li>
+            <li>"Better medicine Tastes bitter: Negative Media Tone and Leverage Adjustments" with Sohee Park & Meeok Cho. Korean Journal of Financial Studies, 2024, 53(2). <span style="display:none;"></span></li>
+            <li>"The Case Study on Non-GAAP Reporting: Quarterly Reports by Coupang" with Hyunkyung Lee. Korean Accounting Journal, 2023, 32(6) [in Korean]. <span style="display:none;"></span></li>
+            <li>"A Study on the Firms' Adjustment toward the Optimal Level of Tax Avoidance" with JinCheol Bae. Accounting Information Review, 2023, 41(2) [in Korean]. <span style="display:none;"></span></li>
+            <li>"The Change in Rating Standard on R&D Expenditures" with Sera Choi. Accounting Information Review, 2022, 40(2). <span style="display:none;"></span></li>
+            <li>"The Effect of K-IFRS 1115 on Telecommunication Companies' Financial Reporting" with Jeong-Hoon Hyun. Korean Accounting Journal, 2021, 30(5) [in Korean]. <span style="display:none;"></span></li>
+            <li>"Extrapolation Bias in Explaining the Asset Growth Anomaly: Evidence from Analysts' Earnings Forecasts" with Sunhwa Choi, Lee-Seok Hwang, & Woo-Jong Lee. Korean Accounting Review, 2018, 43(2). <span style="display:none;"></span></li>
+            <li>"The Comparison of Empirical Models for Asymmetric Cost Behavior" with Mi-Ok Kim & Hyung-Rok Jung. Korean Accounting Information Review, 2017, 35(1) [in Korean]. <span style="display:none;"></span></li>
+            <li>"The Divergence between Voting Rights and Control Rights and the Growth Anomaly" with Mi-Ok Kim & Hyung-Rok Jung. Korean Accounting Review, 2014, 39(6) [in Korean]. <span style="display:none;"></span></li>
+            <li>"Study on the Effect of Corporate Ownership on Information Asymmetry" with Seung Youn Lim & Ku Young Hwang. Korean International Accounting Review, 2014, 56(8) [in Korean]. <span style="display:none;"></span></li>
+            <li>"The Effect of the Level of Competition in Audit Market on Audit Quality and Audit Fees" with Bomi-Song & Jong-Hag Choi. Korean Management Review, 2014, 43(5) [in Korean]. <span style="display:none;"></span></li>
+            <li>"The Conservative Audit Approach and Auditor Change" with Keun-Sik Shin & Jong-Hag Choi. Accounting, Tax, and Auditing Research, 2014, 56(1) [in Korean]. <span style="display:none;"></span></li>
+            <li>"The Changes in Matching between Revenue with Expense: The Effect of Financial Structures" with Tae-Sik Ahn, Jung-Hun Hyun, & Seungbin Oh. Korean Accounting Review, 2014, 39 (1) [in Korean]. <span style="display:none;"></span></li>
+            <li>"The Association between Income-increasing Earnings Management and Operating Performance, and Voluntary Resignation of Outside Directors" with Sunyoung Park & Jong-Hag Choi. Korean Accounting Review, 2012, 37 (4) [in Korean]. <span style="display:none;"></span></li>
+            <li>"Valuation and Risk Management of the Put Back Option: A Case of Kumho Industrial" with Moony Lee & Lee-Seok Hwang. Korean Accounting Journal, 2011, 20 (5) [in Korean]. <span style="display:none;"></span></li>
         </ul>
     </div>
 
     <div class="lang-ko">
         <h2>주요 경력</h2>
         <ul class="pub-list">
-            <li>한국회계기준원 수석연구원, 한국회계연구원 센터장, 서울, 대한민국 (2024년 9월 - 현재) <span style="display:none;">[cite: 18, 19]</span></li>
-            <li>인하대학교, 부교수, 인천, 대한민국 (2021년 3월 - 2024년 8월) <span style="display:none;">[cite: 20, 22]</span></li>
-            <li>인하대학교, 조교수, 인천, 대한민국 (2020년 9월 - 2021년 2월) <span style="display:none;">[cite: 21, 22]</span></li>
-            <li>Universidad Carlos III de Madrid, 조교수, 마드리드, 스페인 (2015년 9월 - 2020년 8월) <span style="display:none;">[cite: 22]</span></li>
-            <li>삼일회계법인, 서울, 대한민국 (2005년 12월 - 2009년 2월) <span style="display:none;">[cite: 22, 24]</span></li>
+            <li>한국회계기준원 수석연구원, 한국회계연구원 센터장, 서울, 대한민국 (2024년 9월 - 현재) <span style="display:none;"></span></li>
+            <li>인하대학교, 부교수, 인천, 대한민국 (2021년 3월 - 2024년 8월) <span style="display:none;"></span></li>
+            <li>인하대학교, 조교수, 인천, 대한민국 (2020년 9월 - 2021년 2월) <span style="display:none;"></span></li>
+            <li>Universidad Carlos III de Madrid, 조교수, 마드리드, 스페인 (2015년 9월 - 2020년 8월) <span style="display:none;"></span></li>
+            <li>삼일회계법인, 서울, 대한민국 (2005년 12월 - 2009년 2월) <span style="display:none;"></span></li>
         </ul>
 
         <h2>국제학술지 게재</h2>
         <ul class="pub-list">
-            <li>"Peer Effects in investment: Evidence from early-tenure CEOs" with Ahrum Choi and Taejin Jung. European Accounting Review, 2025, 34(3). <span style="display:none;">[cite: 25]</span></li>
-            <li>"Corporate Investment in the Absence of Peer Firms' Disaggregated Cost Information" with Sehee Kim & Woo-Jong Lee. Asia-Pacific Journal of Financial Studies, 2025, 54(4). <span style="display:none;">[cite: 26, 27]</span></li>
-            <li>"Media Attention and Tax Avoidance: Evidence from Korea" with Meeok Cho & Taejin Jung. Applied Economics, forthcoming. <span style="display:none;">[cite: 29]</span></li>
-            <li>"Dark Side of Analyst Coverage? The Case of Cash Holding Adjustment toward the Optimal Level" with Su-Young Choi. Pacific-Basin Finance Journal, 2025, 91. <span style="display:none;">[cite: 30, 31]</span></li>
-            <li>"Managerial Ability and Tax Avoidance Adjustment toward the Optimal Level" with Sumi Jung and Jiyeon Lee. Spanish Journal of Finance and Accounting, 2025, 54(1). <span style="display:none;">[cite: 33, 34]</span></li>
-            <li>"Employee Characteristics and Corporate Risk-Taking: Focusing on Tenure" with Sera Choi and Dae-Hyun Kwon. Asia-Pacific Journal of Financial Studies, 2024, 53(3). <span style="display:none;">[cite: 36, 37]</span></li>
-            <li>"Flexible CPA staffing: Implications for Audit Fees and Audit Quality" with Meeok Cho, Sehee Kim, Byunghee Bryan Lee, and Woo-Jong Lee. International Journal of Auditing, 2024, 28(2). <span style="display:none;">[cite: 38, 39]</span></li>
-            <li>"Controlling Shareholders' Value and Corporate Tax Avoidance" with Jeong-Hoon Hyun, Taejin Jung, Yewon Kim. Asia-Pacific Journal of Financial Studies, 2024, 53(1). <span style="display:none;">[cite: 40, 41]</span></li>
-            <li>"Managerial ability and revenue-expense matching: Accrual estimation versus business decision" with Gayoung Choi. Asia-Pacific Journal of Accounting & Economics, 2023, 30(4). <span style="display:none;">[cite: 42, 43]</span></li>
-            <li>"Bargaining Power and Budget Ratcheting: Evidence from South Korean Local Governments" with Mi-Ok Kim, Youn-Sik Choi, and Hyung-Rok Jung. Management Accounting Research, 2021, 53. <span style="display:none;">[cite: 44, 45]</span></li>
-            <li>"Media attention and cash holding adjustments" with Meeok Cho and Sehee Kim. Asia-Pacific Journal of Financial Studies, 2021, 50(6). <span style="display:none;">[cite: 46]</span></li>
-            <li>"Analyst Coverage and the Market Valuation of Capitalized vs. Expensed R&D" with Yewon Kim and Seunghee Yang. Asia-Pacific Journal of Financial Studies, 2021, 50(4). <span style="display:none;">[cite: 47, 48]</span></li>
-            <li>"Is Managerial Ability Associated with Capital Structure Adjustment Speed?" with Sera Choi and Gayoung Choi. Asia-Pacific Journal of Financial Studies, 2021, 50(3). <span style="display:none;">[cite: 49, 50]</span></li>
-            <li>"Fixed Asset Revaluation and External Financing during the Financial Crisis: Evidence from Korea" with Young Jun Kim and Ju Ryum Chung. Pacific-Basin Finance Journal, 2021, 67. <span style="display:none;">[cite: 51, 52]</span></li>
-            <li>"Employee Tenure and Real Earnings Management" with Sera Choi and De Hyun Kwon. Asia-Pacific Journal of Accounting and Economics, 2021, 28(3). <span style="display:none;">[cite: 53, 54]</span></li>
-            <li>"Regional Crime Rates and Financial Reporting Quality in Private Firms" with Sera Choi, Woo-Jong Lee, and Seunghee Yang. Spanish Journal of Finance and Accounting, 2020, 49(1). <span style="display:none;">[cite: 55, 56]</span></li>
-            <li>"Optimistic Credit Rating and its Influence on Corporate Decisions: Evidence from Korea" with Seung-Youb Han, Seungbin Oh, and Hee-Yeon Sunwoo. Asia-Pacific Journal of Accounting & Economics, 2020, 27(5). <span style="display:none;">[cite: 58, 59]</span></li>
-            <li>"Deleveraging and Decline in Revenue-expense Matching over Time" with Jeong-Hoon Hyun. Journal of Business Finance & Accounting, 2018, 45(9-10). <span style="display:none;">[cite: 61]</span></li>
-            <li>"Cash Holdings Adjustment Speed and Managerial Ability" with Sera Choi and Mi-Ok Kim. Asia-Pacific Journal of Financial Studies, 2018, 47(5). <span style="display:none;">[cite: 63, 64]</span></li>
-            <li>"Do Labor Unions Always Lead to Underinvestment?" with Woo-Jong Lee, Bryan Byung-Hee Lee, and Byungcherl Charlie Sohn. Journal of Management Accounting Research, 2017, 29(1). <span style="display:none;">[cite: 65, 66]</span></li>
-            <li>"Politically Connected Audit Committees, Earnings Quality, and External Financing: Evidence from Korea" with Bomi Song. Asia-Pacific Journal of Financial Studies, 2017, 46(4). <span style="display:none;">[cite: 69, 70]</span></li>
-            <li>"The Effectiveness of Regulation Fair Disclosure: Evidence from an Emerging Market" with Hosik Shim, and Woo-Jong Lee. Emerging Market Finance and Trade, 2016, 52(6). <span style="display:none;">[cite: 71, 72]</span></li>
-            <li>"What Drives Credit Rating Changes? A Return Decomposition Approach" with Sunhwa Choi. Asia-Pacific Journal of Financial Studies, 2015, 44(6). <span style="display:none;">[cite: 73]</span></li>
-        </ul>
-
-        <h2>국내학술지 게재</h2>
-        <ul class="pub-list">
-            <li>"국내 재무회계 연구 동향과 전망: 공시와 회계기준의 변화를 중심으로" 문두철, 송민섭과 공저. 회계학연구, 2025, 50(5). <span style="display:none;">[cite: 81]</span></li>
-            <li>"A literature review and preliminary analysis of Non-GAAP reporting in Korea: Implications for the upcoming implementation of management-defined performance measures" 문해원과 공저. 회계저널, 2025, 34(5). <span style="display:none;">[cite: 82, 83]</span></li>
-            <li>"Re-examination of Non-Linearity between Tax and Financial Reporting Aggressiveness" 양승희, 정희선, 황이석과 공저. Seoul Journal of Business, 2024, 30(1). <span style="display:none;">[cite: 84]</span></li>
-            <li>"Better medicine Tastes bitter: Negative Media Tone and Leverage Adjustments" 박소희, 조미옥과 공저. Korean Journal of Financial Studies, 2024, 53(2). <span style="display:none;">[cite: 86, 87]</span></li>
-            <li>"Non-GAAP 이익 보고에 관한 사례: 쿠팡의 분기별 실적 보고" 이현경과 공저. 회계저널, 2023, 32(6). <span style="display:none;">[cite: 88]</span></li>
-            <li>"기업의 조세회피 수준 조정속도에 관한 연구" 배진철과 공저. 회계정보연구, 2023, 41(2). <span style="display:none;">[cite: 89]</span></li>
-            <li>"The Change in Rating Standard on R&D Expenditures" 최세라와 공저. 회계정보연구, 2022, 40(2). <span style="display:none;">[cite: 90]</span></li>
-            <li>"K-IFRS 제1115호 수익인식기준이 통신사업자의 재무보고에 미치는 영향" 현정훈과 공저. 회계저널, 2021, 30(5). <span style="display:none;">[cite: 91]</span></li>
-            <li>"Extrapolation Bias in Explaining the Asset Growth Anomaly: Evidence from Analysts' Earnings Forecasts" 이우종, 최선화, 황이석과 공저. 회계학연구, 2018, 43(2). <span style="display:none;">[cite: 94, 95]</span></li>
-            <li>"비대칭적 원가행태의 연구방법론 비교분석" 김미옥, 정형록과 공저. 회계정보연구, 2017, 35(1). <span style="display:none;">[cite: 96]</span></li>
-            <li>"지분율 괴리도와 투자이상현상" 김미옥, 정형록과 공저. 회계학연구, 2014, 39(6). <span style="display:none;">[cite: 97]</span></li>
-            <li>"소유구조가 정보비대칭에 미치는 영향에 관한 연구" 임승연, 황규영과 공저. 국제회계연구, 2014, 56(8). <span style="display:none;">[cite: 98]</span></li>
-            <li>"회계감사시장의 경쟁수준과 감사품질 및 감사보수 사이의 관계" 송보미, 최종학과 공저. 경영학연구, 2014, 43(5). <span style="display:none;">[cite: 99, 101]</span></li>
-            <li>"감사인 교체와 감사인의 보수적 회계감사" 신근식, 최종학과 공저. 회계·감사와세무연구, 2014, 56(1). <span style="display:none;">[cite: 103]</span></li>
-            <li>"수익비용대응의 변화: 재무구조의 영향에 대한 분석" 안태식, 오승빈, 현정훈과 공저. 회계학연구, 2014, 39 (1). <span style="display:none;">[cite: 105]</span></li>
-            <li>"기업의 이익 상향조정 경향 및 경영성과와 사외이사의 임기 중 자발적 사임" 박선영, 최종학과 공저. 회계학연구, 2012, 37 (4). <span style="display:none;">[cite: 106]</span></li>
-            <li>"풋백옵션의 가치평가 및 위험관리 금호산업 사례를 중심으로" 이문영, 황이석과 공저. 회계저널, 2011, 20 (5). <span style="display:none;">[cite: 108, 110]</span></li>
-        </ul>
-    </div>
-
-    <script>
-        let currentLang = 'en';
-        function toggleLanguage() {
-            const enElements = document.querySelectorAll('.lang-en');
-            const koElements = document.querySelectorAll('.lang-ko');
-            const btn = document.querySelector('.lang-btn');
-
-            if (currentLang === 'en') {
-                enElements.forEach(el => el.style.display = 'none');
-                koElements.forEach(el => el.style.display = 'block');
-                btn.innerHTML = '🌐 View in English';
-                currentLang = 'ko';
-            } else {
-                koElements.forEach(el => el.style.display = 'none');
-                enElements.forEach(el => el.style.display = 'block');
-                btn.innerHTML = '🌐 한국어로 보기 (Korean)';
-                currentLang = 'en';
-            }
-        }
-    </script>
-</body>
-</html>
+            <li>"Peer Effects in investment: Evidence from early-tenure CEOs" with Ahrum Choi and Taejin Jung. European Accounting Review, 2025, 34(3). <span style="display:none;"></span></li>
+            <li>
